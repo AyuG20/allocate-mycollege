@@ -1,0 +1,249 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+#body {
+     background-image: url(logo.png);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.navbar {
+     background-color: #2a2a2a;
+     display: flex;
+     flex-wrap: nowrap;
+     margin-bottom: 20px;
+     height: 40px;
+     overflow: hidden;
+}
+
+
+.title-logo {
+     width: 30px;
+     margin: 8px;
+     overflow: hidden;
+}
+
+.title-name {
+     margin: 8px 8px;
+     font-size: 20px;
+     overflow: hidden;
+     color: whitesmoke
+}
+
+.nav-elem {
+     margin: 10px 60px;
+     overflow: hidden;
+}
+
+.nav-elem a {
+     font-weight: bolder;
+     text-decoration: none;
+     color: white;
+
+}
+
+
+.logo {
+     width: 50px;
+     margin: 10px;
+     align-content: left;
+}
+
+.login {
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 500px;
+     width: 40%;
+     margin: auto;
+      /* margin-top: 100px;   */
+     background-color: rgb(231, 235, 235);
+     border: 5px solid black;
+     border-radius: 40px;
+    
+} 
+
+
+.signup {
+
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 940px;
+     width: 50%;
+     margin: auto;
+     /* margin-top: 100px; */
+     background-color: rgb(231, 235, 235);
+     border: 5px solid black;
+     border-radius: 40px;
+
+}
+
+#form-title {
+     margin: 20px 0px;
+}
+
+.inpt {
+     width: 45%;
+     margin: 10px;
+     padding: 7px;
+}
+
+.btn {
+     color: aqua;
+     width: 20%;
+     padding: 10px;
+     border-radius: 40px;
+}
+
+.btn:hover {
+     background-color: rgb(26, 26, 61);
+     cursor: pointer;
+}
+
+.error {
+     background-color: #f03232;
+     border-radius: 15px;
+     padding: 5px;
+     align-items: center;
+     justify-content: center;
+     margin-top: 5px;
+}
+
+
+.foot {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #2a2a2a;
+     color: white;
+     text-align: center;
+     height: 40px;
+}
+
+.foot a {
+     text-decoration: none;
+     color: whitesmoke;
+     overflow: hidden;
+}
+@media only screen and (max-width: 480px){
+     .navbar {
+          background-color: #2a2a2a;
+          display: flex;
+          flex-wrap: nowrap;
+          margin-bottom: 20px;
+          height: 40px;
+          overflow: hidden;
+     }
+     
+     
+     .title-logo {
+          width: 20px;
+          margin: 8px;
+          overflow: hidden;
+     }
+     
+     .title-name {
+          margin: 8px 8px;
+          font-size: 15px;
+          overflow: hidden;
+          color: whitesmoke
+     }
+     
+     .nav-elem {
+          margin: 10px 60px;
+          overflow: hidden;
+     }
+     
+     .nav-elem a {
+          font-weight: bolder;
+          font-size: smaller;
+          text-decoration: none;
+          color: white;
+     
+     }
+     
+     
+     .logo {
+          width: 50px;
+          margin: 10px;
+          align-content: left;
+     }
+    
+}
+@media only screen and (max-width: 800px){
+     .login{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         height: 500px;
+         width: 80%;
+         margin: auto;
+         background-color:  rgb(231, 235, 235);
+         border: 5px solid black;
+         border-radius: 40px;
+     }
+     .signup {
+
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 940px;
+          width: 80%;
+          margin: auto;
+          background-color: rgb(231, 235, 235);
+          border: 5px solid black;
+          border-radius: 40px;
+     
+     }
+     .btn {
+          color: aqua;
+          width: 40%;
+          padding: 10px;
+          border-radius: 40px;
+     }
+     
+     .btn:hover {
+          background-color: rgb(26, 26, 61);
+          cursor: pointer;
+     }
+ }
+ @media only screen and (max-width: 380px){
+     .login{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         height: 500px;
+         width: 100%;
+         margin: auto;
+         background-color: rgb(231, 235, 235);
+         border: 5px solid black;
+         border-radius: 40px;
+     }
+     .signup {
+
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 940px;
+          width: 100%;
+          margin: auto;
+          background-color: rgb(231, 235, 235);
+          border: 5px solid black;
+          border-radius: 40px;
+     
+     }
+ }
